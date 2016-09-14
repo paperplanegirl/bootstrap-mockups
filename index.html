@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="icon" href="img/microsoft_box.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <title>Microsoft - Official Home Page</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://www.microsoft.com/en-sg/">
+          <img id="logo" src ="img/microsoft.png" alt="Brand">
+        </div>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store<span class="glyphicon glyphicon-menu-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Store home</a></li>
+                <li><a href="#">Devices</a></li>
+                <li><a href="#">Software</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Business & Entertainment</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Find a store</a></li>
+                <li><a href="#">Gift cards</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="glyphicon glyphicon-menu-down""></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Software & services</a></li>
+                <li><a href="#">Devices & Xbox</a></li>
+                <li><a href="#">For business</a></li>
+                <li><a href="#">For developers & IT pros</a></li>
+                <li><a href="#">For students & educators</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="#">Support<span class="sr-only">(current)</span></a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Microsoft.com">
+                <span class="glyphicon glyphicon-search"></span>
+              </div>
+            </form>
+            <i class="ionicons ionicons-ios-cart-outline"></i>
+            <li><a href="https://login.live.com">Sign in</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- <nav class="navbar navbar-default nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/microsoft.png">
+            <ul class="pagination pagination-lg">
+              <li>Store</li>
+              <li>Products</li>
+              <li>Support</li>
+            </ul>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carousel-one" class="carousel carousel-fade" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-one" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-one" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/main.jpg" alt="first image" >
+          <div class="carousel-caption">
+            <h3>Limited-time offer: Get $100 off select Dell XPS 13 PCs*</h3>
+            <p> Learn More >  Shop Now > </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/main1.jpg" alt="second image">
+          <div class="carousel-caption">
+            <h3>Students: Save $150 on select Surface Book devices*</h3>
+            <p>Learn More >  Shop limited-time offer > </p>
+          </div>
+        </div>
+        ...
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-one" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-one" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div id="carouselButtons">
+      <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-pause"></span>
+      </button>
+      <button id="playButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-play"></span>
+      </button>
+    </div>
+    <div class="player text-center">
+      <button type="button" id="button_stop" class="btn" onclick='buttonStopPress()'>
+        <i class="fa fa-stop"></i>
+      </button>
+
+      <button type="button" id="button_play" class="btn" onclick='buttonPlayPress()'>
+        <i class="fa fa-play"></i>
+      </button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div class="container">
+      <div class="row"/>
+      <div class="col-xs-6 col-sm-3">
+        <img class= "img-responsive" src="img/laptop.jpg"/>
+        <h3 class="feature-title">Limited-time offer</h3>
+        <p class="text-center">Students save $150 on select HP Spectre x360 PCs.*</p>
+      </div>
+
+      <div class="col-xs-6 col-sm-3">
+        <img class="img-responsive" src="img/xbox.jpg"/>
+        <h3 class="feature-title">Xbox One S</h3>
+        <p class="text-center">Sleeker, slimmer, sharper. Buy now.</p>
+      </div>
+
+      <div class="col-xs-6 col-sm-3">
+        <img class="img-responsive" src="img/tablet.jpg"/>
+        <h3 class="feature-title">Microsoft Band</h3>
+        <p class="text-center">Stay connected with email, text, and calendar alerts.</p>
+      </div>
+
+      <div class="col-xs-6 col-sm-3">
+        <img class="img-responsive" src="img/watch.jpg"/>
+        <h3 class="feature-title">Microsoft Store</h3>
+        <p class="text-center">Prep for success with our back-to-school deals.</p>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+  <div class="middleImage">
+    <img class= "img-responsive" src="img/middle.jpg"/>
+    </div>
+
+  <div class="container">
+    <h2 class="text-center">For Work</h2>
+    <div class="row"/>
+    <div class="col-xs-6 col-sm-3">
+      <img class="img-responsive" src="img/jobtitle.jpg"/>
+      <h3 class="feature-title">New Office 365 for Enterprise</h3>
+      <p class="text-center">Learn more about all the capabilities now available</p>
+    </div>
+
+    <div class="col-xs-6 col-sm-3">
+      <img class="img-responsive" src="img/laptop1.jpg"/>
+      <h3 class="feature-title">Windows 10 Enterprise</h3>
+      <p class="text-center">Download the free 90-day evaluation for IT professionals.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img class="img-responsive" src="img/lightbulb.jpg"/>
+      <h3 class="feature-title">Visual Studio 2015</h3>
+      <p class="text-center">Create the next great app with our new free dev guide.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img class="img-responsive" src="img/people.jpg"/>
+      <h3 class="feature-title">Microsoft Cloud</h3>
+      <p class="text-center">This cloud helps a global nonprofit improve healthcare.</p>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+<div id="carousel-two" class="carousel carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-two" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-two" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/main2.jpg">
+      <div class="carousel-caption">
+        <h3>Katie Stone Perez is helping indie developers change the game at Xbox</h3>
+        <p>See how ></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/main3.jpg">
+      <div class="carousel-caption">
+        <h3>New app helps parents of sick newborns communicate with doctors</h3>
+        <p>Learn more > </p>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#carousel-two" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-two" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!-- <div id="carouselButtons">
+      <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-pause"></span>
+      </button>
+      <button id="playButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-play"></span>
+      </button> -->
+    </div>
+    <br></br>
+
+
+    <footer>
+      <div class="container">
+        <div class="social">
+          <p>Follow Microsoft
+            <img src="img/fb.png">
+            <img src="img/twitter.png">
+          </p>
+        </div>
+
+        <div class="greybox">
+          <div class="row"/>
+          <div class="col-xs-2 col-sm-2">
+            <p>Learn</p>
+            <a href="https://www.microsoft.com/en-us/windows">Windows</a><br>
+            <a href="https://products.office.com/en-us/home">Office</a><br>
+            <a href="https://www.skype.com/en/">Skype</a><br>
+            <a href="https://www.microsoft.com/en-us/outlook-com/?cb=v8ho">Outlook</a><br>
+            <a href="https://onedrive.live.com/about/en-us/">OneDrive</a><br>
+            <a href="http://www.msn.com/en-sg/?ocid=FOO000">MSN</a>
+          </div>
+
+          <div class="col-xs-2 col-sm-2">
+            <div class="footer-text">
+              <p>Devices</p>
+              <a href="https://www.microsoft.com/surface/en-us">Microsoft Surface</a><br>
+              <a href="http://marketplace.xbox.com/en-US/">Xbox</a><br>
+              <a href="https://www.microsoft.com/en-us/windows/devices">PC and laptops</a><br>
+              <a href="https://www.microsoft.com/en-us/mobile/">Microsoft Lumia</a><br>
+              <a href="https://www.microsoft.com/Microsoft-Band/en-us">Microsoft Band</a><br>
+              <a href="https://www.microsoft.com/microsoft-hololens/en-us">Microsoft HoloLens</a>
+            </div>
+          </div>
+
+
+          <div class="col-xs-2 col-sm-2">
+            <div class="footer-text">
+              <p>Microsoft Store</p>
+              <a href="https://login.live.com/">View account</a><br>
+              <a href="https://www.microsoftstore.com/">Order tracking</a><br>
+              <a href="https://www.microsoft.com/en-us/store/locations/find-a-store">Retail store locations</a><br>
+              <a href="https://www.microsoftstore.com/store/msusa/en_US/DisplayHelpReturnsRefundsPage/">Returns</a><br>
+              <a href="https://www.microsoftstore.com/store/msusa/en_US/DisplayHelpContactUsPage/">Sales & Support</a>
+            </div>
+          </div>
+
+
+          <div class="col-xs-2 col-sm-2">
+            <div class="footer-text">
+              <p>Downloads</p>
+              <a href="https://www.microsoft.com/en-us/download">Download Center</a><br>
+              <a href="https://support.microsoft.com/en-us/help/17777/downloads-for-windows">Windows 10 Apps</a><br>
+              <a href="https://store.office.com">Office Apps</a><br>
+              <a href="https://www.microsoft.com/en-us/mobile/apps/lumia/">Microsoft Lumia Apps</a><br>
+              <a href="https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads">Internet Explorer</a>
+            </div>
+          </div>
+
+
+          <div class="col-xs-2 col-sm-2">
+            <div class="footer-text">
+              <p>Values</p>
+              <a href="https://www.microsoft.com/en-us/diversity/">Diversity and inclusion</a><br>
+              <a href="https://www.microsoft.com/en-us/accessibility/home">Accessiblity</a><br>
+              <a href="https://www.microsoft.com/about/csr/environment/">Environment</a><br>
+              <a href="https://www.microsoft.com/about/philanthropies/">Microsoft Pilanthropies</a><br>
+              <a href="https://www.microsoft.com/about/csr/">Corporate Social Responsibility</a><br>
+              <a href="https://privacy.microsoft.com/en-us">Privacy at Microsoft</a>
+            </div>
+          </div>
+
+
+          <div class="col-xs-2 col-sm-2">
+            <p>Company</p>
+            <a href="https://careers.microsoft.com/">Careers</a><br>
+            <a href="https://www.microsoft.com/en-us/about">About Microsoft</a><br>
+            <a href="https://news.microsoft.com/">Company news</a><br>
+            <a href="https://www.microsoft.com/en-us/investor/">Investors</a><br>
+            <a href="https://www.microsoft.com/en-us/research">Research</a><br>
+            <a href="https://www.microsoft.com/en-us/sitemap.aspx">Site map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/carousel.js"></script> -->
+    <!-- <script>
+      $('.carousel').carousel( {
+        setInterval: 3000
+      })
+    </script> -->
+
+
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- <script src="js/bootstrap.js"></script> -->
+
+
+  </body>
+</div>
+</html>
